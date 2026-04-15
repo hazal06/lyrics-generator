@@ -55,6 +55,7 @@ python generate.py
 
 ## Project Structure
 
+```
 ├── data/
 │   ├── collect_lyrics.py    # Genius API scraping
 │   └── preprocess.py        # Cleaning and train/val split
@@ -66,6 +67,7 @@ python generate.py
 │   └── style_classifier.py  # Artist style accuracy (coming soon)
 ├── generate.py              # Lyrics generation script
 └── app.py                   # Gradio web demo (maybe coming soon)
+```
 
 ## Next Steps
 
